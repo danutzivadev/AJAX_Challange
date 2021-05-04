@@ -321,11 +321,11 @@ ul li {
   position: relative;
 }
 
-ul.bulleted li {
+ul.bulleted li, ul.rooms li {
   padding-left: 40px;
 }
 
-ul.bulleted li:before {
+ul.bulleted li:before,ul.rooms li:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -337,20 +337,20 @@ ul.bulleted li:before {
   width: 25px;
 }
 
-ul.bulleted .in {
+ul.bulleted .in,ul.rooms .in {
   color: #5A6772;
 }
 
-ul.bulleted .in:before {
+ul.bulleted .in:before ,ul.rooms .in:before{
   content: "IN";
   background-color: #5fcf80;
 }
 
-ul.bulleted .out {
+ul.bulleted .out,ul.rooms .out {
   color: #A7B4BF;
 }
 
-ul.bulleted .out:before {
+ul.bulleted .out:before,ul.rooms .out:before  {
   content: "OUT";
   background-color: #ed5a5a;
 }

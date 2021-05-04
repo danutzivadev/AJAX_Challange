@@ -1,0 +1,26 @@
+[
+    {
+       "number":"101",
+       "availability":"full"
+    },
+    {
+       "number":"102",
+       "availability":"empty"
+    },
+    {
+       "number":"103",
+       "availability":"full"
+    },
+    {
+       "number":"104",
+       "availability":"full"
+    },
+    {
+       "number":"105",
+       "availability":"empty"
+    },
+    {
+       "number":"106",
+       "availability":"empty"
+    }
+ ]
