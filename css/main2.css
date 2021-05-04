@@ -1,0 +1,38 @@
+ ul.rooms li {
+  padding-left: 40px;
+}
+
+ul.rooms li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: .5em;
+  padding: 3px 2px 2px;
+  border-radius: 2px;
+  text-align: center;
+  width: 25px;
+}
+
+ul.rooms .in {
+  color: #5A6772;
+}
+
+ul.rooms .in:before{
+  content: "FREE";
+  background-color: #5fcf80;
+}
+
+ul.rooms .out {
+  color: #A7B4BF;
+}
+
+ul.rooms .out:before  {
+  content: "FULL";
+  background-color: #ed5a5a;
+}
+
+
+.caca {
+  margin-top: 15px;
+}
