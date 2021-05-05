@@ -17,7 +17,6 @@ $(document).ready(function(){
 
 // rooms challange
 
-$(document).ready(function(){
     var urlr = "data/rooms.json";
     $.getJSON(urlr, function(response){
         var statusHTMLr = '<ul class=rooms>';
@@ -32,4 +31,3 @@ $(document).ready(function(){
         statusHTMLr += '</ul>';
         $('#roomList').html(statusHTMLr);
     }); //end getJSON
-}); // end ready
